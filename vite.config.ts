@@ -5,8 +5,9 @@ import { nodePolyfills } from 'vite-plugin-node-polyfills';
 import { optimizeCssModules } from 'vite-plugin-optimize-css-modules';
 import tsconfigPaths from 'vite-tsconfig-paths';
 import { netlifyPlugin } from "@netlify/remix-adapter/plugin";
+import react from "@vitejs/plugin-react";
+import path from "path";
 import * as dotenv from 'dotenv';
-
 dotenv.config();
 
 export default defineConfig((config) => ({
@@ -22,6 +23,7 @@ export default defineConfig((config) => ({
     },
   },
   plugins: [
+    react(),
     UnoCSS(), // 👈 Required to handle virtual:uno.css
     tsconfigPaths(),
     nodePolyfills({
