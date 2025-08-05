@@ -348,6 +348,9 @@ importers:
       '@iconify/types':
         specifier: ^2.0.0
         version: 2.0.0
+      '@netlify/esbuild':
+        specifier: 0.14.39-1
+        version: 0.14.39-1
       '@netlify/remix-adapter':
         specifier: ^2.6.1
         version: 2.6.1(typescript@5.9.2)(vite@5.4.19(@types/node@24.2.0)(sass-embedded@1.89.2)(sass@1.89.2))
@@ -1848,6 +1851,131 @@ packages:
     peerDependencies:
       nanostores: ^0.9.0 || ^0.10.0 || ^0.11.0
       react: '>=18.0.0'
+
+  '@netlify/esbuild-android-64@0.14.39-1':
+    resolution: {integrity: sha512-/rZn0xVfTLVjx0SLvToydTTpvNwrlFqxW++Lqen7CXubTJNFnZQH0hP/qMCILac41zvSipxyU5/Di9mWHoLv9Q==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [android]
+
+  '@netlify/esbuild-android-arm64@0.14.39-1':
+    resolution: {integrity: sha512-Wnjsv5djKQ2NwKaDj2P5DpvNAFhQIQBer2IqVCQ8u0ykdyr+y+u5CmM1ZnrzBnDUULk5TYwPlUNt3p2NctSnLQ==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [android]
+
+  '@netlify/esbuild-darwin-64@0.14.39-1':
+    resolution: {integrity: sha512-rHQmZcS+1qC9bL1EwFQ8SGqiKrIUQLam9ty2bcsEH78525NoAW8f/ENollQlso1K8lSkcn+KzX7i09FdRL0TLQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@netlify/esbuild-darwin-arm64@0.14.39-1':
+    resolution: {integrity: sha512-Ytz9SY7BjtBnrZL4qCsKJ/xyjJyH2LFLV3kv3DhY5X+eUUBsjdCAq2VVY9zLnvkNf5Sef/U35Jie2O0sl+3E1g==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@netlify/esbuild-freebsd-64@0.14.39-1':
+    resolution: {integrity: sha512-TsOZCldbxEOB4Rv5tudYCkPkfHklmOWQgRPoz3wsmJDUpLwljOQFru4J0uCRqKKGLALo1qBBQvzofQi+5dvTzQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@netlify/esbuild-freebsd-arm64@0.14.39-1':
+    resolution: {integrity: sha512-wJbKm1eijTiots/RgDOZjbqcZaCVElPjegRit0LkbAQnqfBc2B8F6j7CkUgbWg1hU2+YJFiMGhaRMljN9jpCVQ==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [freebsd]
+
+  '@netlify/esbuild-linux-32@0.14.39-1':
+    resolution: {integrity: sha512-rSCpXot5p3zUpwnC9ttKtP+vWf3gT1CkzJwEBHqqIr0GmgTLoADMaZ1AZqq125DyCvPf2s9f98XtSWaHmIqN8w==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [linux]
+
+  '@netlify/esbuild-linux-64@0.14.39-1':
+    resolution: {integrity: sha512-lx+tQR7OW9Sq8WrP+zJ20lpJFHe4jvO56czUjJe7iSYtu0mpbApnJc2p4KqakU4xdjMdlqsUDG6L7GqE4+dNxQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [linux]
+
+  '@netlify/esbuild-linux-arm64@0.14.39-1':
+    resolution: {integrity: sha512-e1gEB3+1WWsvBNDrPIq43hkUmWx9CkN5DVfcHa9Ar55DY8G9DRl5MyCFVpYVPctoWLRMlt1VRwPuc5YfSTXZbw==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@netlify/esbuild-linux-arm@0.14.39-1':
+    resolution: {integrity: sha512-O2w4oRYNoavKyednlkCnxr7VnfizpWurCxKraRyKQ4XIQbv3bqtgK/VSt1cJMwm+7+BdGNsqux4wAKmwsdW+Zw==}
+    engines: {node: '>=12'}
+    cpu: [arm]
+    os: [linux]
+
+  '@netlify/esbuild-linux-mips64le@0.14.39-1':
+    resolution: {integrity: sha512-SKDBxNiJmTD1HYlmq6GWbz7dBtz1lYg28Y8RLo2Yj/jZtkVzZbMS0sVhB05FAzQhGT+m1bFLSrbLJkfmbzoQXg==}
+    engines: {node: '>=12'}
+    cpu: [mips64el]
+    os: [linux]
+
+  '@netlify/esbuild-linux-ppc64le@0.14.39-1':
+    resolution: {integrity: sha512-cKIoVrHn6qJf1cTKCaOQvXKpcpSwCShzNkEQNtWCEFvlHJ817lsVaWqQm01qDQ9pGrDbhZRsUAIOkwsjLrKDmA==}
+    engines: {node: '>=12'}
+    cpu: [ppc64]
+    os: [linux]
+
+  '@netlify/esbuild-linux-riscv64@0.14.39-1':
+    resolution: {integrity: sha512-W6gQyJc52lFoPj0w6AoQCfa8/fmwsC6CrT80JKe+fF4mYwBUnySbRVldMDb/cb6qCqHt5m3X+w7HFS5soPGT5Q==}
+    engines: {node: '>=12'}
+    cpu: [riscv64]
+    os: [linux]
+
+  '@netlify/esbuild-linux-s390x@0.14.39-1':
+    resolution: {integrity: sha512-IN4agxUutc0BbcAMDDVuz60bDKFEGlq+vZlPzeLnketkVs/5BZj1vfoS8hJJelvR/mB99G9YjyOm08EthqoyHw==}
+    engines: {node: '>=12'}
+    cpu: [s390x]
+    os: [linux]
+
+  '@netlify/esbuild-netbsd-64@0.14.39-1':
+    resolution: {integrity: sha512-cnvcQ6u7QtjnxFcMYtEUqOYg8wTfLOSoc6nFPhjIE4074Tw/H48LFqFq0v2Gtgvc5neUZtxBF2+6QMX4Q91vwQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [netbsd]
+
+  '@netlify/esbuild-openbsd-64@0.14.39-1':
+    resolution: {integrity: sha512-14fDX08hM0rWzUO7uf7Wxg9uL5SK5AqSDe+vXviIL+gWGN2vHoakRbzZoLVHFwoTLT5/1oIUYDJfcmcrFm1rjw==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [openbsd]
+
+  '@netlify/esbuild-sunos-64@0.14.39-1':
+    resolution: {integrity: sha512-TDUJGI077mAM3qotUfN/DcKaBq3nLeAdNwjsWulKgdC3UwC/iqyrYrnmZipEbiHO2jt4+wRFUz/s/x+HeDiblg==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [sunos]
+
+  '@netlify/esbuild-windows-32@0.14.39-1':
+    resolution: {integrity: sha512-Jyf5OUm+Guo7+SoIURTfmzqri10xj18qdgxwy3NNsQG/Eg1XLETDORWH0cKy6YTiRDuqeCsZeXDoAQABOs30gQ==}
+    engines: {node: '>=12'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@netlify/esbuild-windows-64@0.14.39-1':
+    resolution: {integrity: sha512-D41xhwJN90qeLebZrb853zhGJahIlCf+HPKwxVZx+Nk8BNV09jQyJ2GYqmmwRxNOrbzqD80+pgvoYkq4a4OV0g==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+
+  '@netlify/esbuild-windows-arm64@0.14.39-1':
+    resolution: {integrity: sha512-EGzYwc+MoKhWnz+6iUbXQKcQKV8FbPovDJkmY9YWGkgSwZALPo4DpjSaMLW6hv42YRyoBRM1NP/v/qmVtgeJjQ==}
+    engines: {node: '>=12'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@netlify/esbuild@0.14.39-1':
+    resolution: {integrity: sha512-FkS9R3aeD1JvPhEZh9r4GfXGLHoqzAsS3haqIeFfQ907irkGzCg1w5r5OWuSqPtLNyaGklVWz/HU0IsM8thyZw==}
+    engines: {node: '>=12'}
+    hasBin: true
 
   '@netlify/remix-adapter@2.6.1':
     resolution: {integrity: sha512-WB1Kc7AOYzXhgPNiFd4ATMZg04EIzR8eX8H+1QwSAKn2gjNYg3k0t8nVJwZRmUZ4sL5jRZuXM/HeESFMOimVUA==}
@@ -9616,6 +9744,89 @@ snapshots:
     dependencies:
       nanostores: 0.10.3
       react: 18.3.1
+
+  '@netlify/esbuild-android-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-android-arm64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-darwin-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-darwin-arm64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-freebsd-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-freebsd-arm64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-32@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-arm64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-arm@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-mips64le@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-ppc64le@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-riscv64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-linux-s390x@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-netbsd-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-openbsd-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-sunos-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-windows-32@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-windows-64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild-windows-arm64@0.14.39-1':
+    optional: true
+
+  '@netlify/esbuild@0.14.39-1':
+    optionalDependencies:
+      '@netlify/esbuild-android-64': 0.14.39-1
+      '@netlify/esbuild-android-arm64': 0.14.39-1
+      '@netlify/esbuild-darwin-64': 0.14.39-1
+      '@netlify/esbuild-darwin-arm64': 0.14.39-1
+      '@netlify/esbuild-freebsd-64': 0.14.39-1
+      '@netlify/esbuild-freebsd-arm64': 0.14.39-1
+      '@netlify/esbuild-linux-32': 0.14.39-1
+      '@netlify/esbuild-linux-64': 0.14.39-1
+      '@netlify/esbuild-linux-arm': 0.14.39-1
+      '@netlify/esbuild-linux-arm64': 0.14.39-1
+      '@netlify/esbuild-linux-mips64le': 0.14.39-1
+      '@netlify/esbuild-linux-ppc64le': 0.14.39-1
+      '@netlify/esbuild-linux-riscv64': 0.14.39-1
+      '@netlify/esbuild-linux-s390x': 0.14.39-1
+      '@netlify/esbuild-netbsd-64': 0.14.39-1
+      '@netlify/esbuild-openbsd-64': 0.14.39-1
+      '@netlify/esbuild-sunos-64': 0.14.39-1
+      '@netlify/esbuild-windows-32': 0.14.39-1
+      '@netlify/esbuild-windows-64': 0.14.39-1
+      '@netlify/esbuild-windows-arm64': 0.14.39-1
 
   '@netlify/remix-adapter@2.6.1(typescript@5.9.2)(vite@5.4.19(@types/node@24.2.0)(sass-embedded@1.89.2)(sass@1.89.2))':
     dependencies:
